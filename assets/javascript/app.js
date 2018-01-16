@@ -19,7 +19,9 @@
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyCblT2nfpwzw2HumOPzdQOh3tLuOvozyiE",
+    apiKey: "AIzaSyCblT2nfpwzw2HumOPzdQOh3tLuOvozyiE", 
+    // apiKey: "AIzaSyB69M6jugW2KXa-CqJRqwS4Tk_DgjpkGfc", 
+    // API from google console: AIzaSyB69M6jugW2KXa-CqJRqwS4Tk_DgjpkGfc
     authDomain: "bootcamp-learning.firebaseapp.com",
     databaseURL: "https://bootcamp-learning.firebaseio.com",
     projectId: "bootcamp-learning",
