@@ -16,8 +16,9 @@ $(".addTrain").hide();
 
 // Google Authentication
 var provider = new firebase.auth.GoogleAuthProvider();
-provider.addScope('profile');
-provider.addScope('email');
+// provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+// provider.addScope('profile');
+// provider.addScope('email');
 
 $(document).on("click", ".signIn", function () {
     console.log("Sign In button clicked");
