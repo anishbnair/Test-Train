@@ -3,7 +3,7 @@
 var config = {
     apiKey: "AIzaSyCblT2nfpwzw2HumOPzdQOh3tLuOvozyiE", 
     // apiKey: "AIzaSyB69M6jugW2KXa-CqJRqwS4Tk_DgjpkGfc", 
-    // API from google console: AIzaSyB69M6jugW2KXa-CqJRqwS4Tk_DgjpkGfc
+    // API from google console: AIzaSyCblT2nfpwzw2HumOPzdQOh3tLuOvozyiE
     authDomain: "bootcamp-learning.firebaseapp.com",
     databaseURL: "https://bootcamp-learning.firebaseio.com",
     projectId: "bootcamp-learning",
@@ -118,7 +118,11 @@ $(".submitButton").on("click", function (event) {
         return;
     }
     // Call clearForm function clear input fields in the html form
-    clearForm();
+    // clearForm();
+    $("#trainName").val('');
+    $("#trainDestination").val('');
+    $("#trainTime").val('');
+    $("#trainFrequency").val('');
 })
 
 // This event will be triggered once for each initial child at this location, and it will be triggered again every time a new child is added
